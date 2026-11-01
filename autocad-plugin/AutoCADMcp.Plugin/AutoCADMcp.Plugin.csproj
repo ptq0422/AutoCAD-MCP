@@ -1,0 +1,29 @@
+﻿
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PlatformTarget>x64</PlatformTarget>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="AcMgd">
+      <HintPath>D:\game\CAD2026\Autodesk\AutoCAD 2026\AcMgd.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <Reference Include="AcDbMgd">
+      <HintPath>D:\game\CAD2026\Autodesk\AutoCAD 2026\AcDbMgd.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <Reference Include="AcCoreMgd">
+      <HintPath>D:\game\CAD2026\Autodesk\AutoCAD 2026\AcCoreMgd.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
